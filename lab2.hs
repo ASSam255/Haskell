@@ -56,8 +56,6 @@ list n x | length n == length x = zipWith (+) n x
           y = replicate m 0
           m = abs (length n - length x)
 
--- Задача 4 Функция перестановки местами соседних четных и нечетных
---элементов в заданном списке
 
 
 
